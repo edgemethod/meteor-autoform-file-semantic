@@ -3,11 +3,12 @@ Autoform File
 
 ### Description ###
 Upload and manage files with autoForm.
+*Just a fork of yogiben:autoform-file that replaces the bootstrap classes with semantic-ui ones*
 
 ![Meteor autoform file](https://raw.githubusercontent.com/yogiben/meteor-autoform-file/master/readme/1.png)
 
 ### Quick Start ###
-1) Install `meteor add yogiben:autoform-file`
+1) Install `meteor add edgemethod:autoform-file-semantic`
 
 2) Create your collectionFS (See [collectionFS](https://github.com/CollectionFS/Meteor-CollectionFS))
 ```coffeescript

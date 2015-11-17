@@ -1,9 +1,9 @@
 Package.describe({
-  name: "yogiben:autoform-file",
+  name: "edgemethod:autoform-file-semantic",
   summary: "File upload for AutoForm",
-  description: "File upload for AutoForm",
+  description: "File upload for AutoForm - w/Semantic UI classes",
   version: "0.3.0",
-  git: "http://github.com/yogiben/autoform-file.git"
+  git: "http://github.com/edgemethod/autoform-file-semantic.git"
 });
 
 Package.onUse(function(api) {
@@ -17,7 +17,6 @@ Package.onUse(function(api) {
     'templating',
     'less@1.0.0 || 2.5.0',
     'aldeed:autoform@5.5.1',
-    'fortawesome:fontawesome@4.4.0',
     'cfs:ui'
   ]);
 
